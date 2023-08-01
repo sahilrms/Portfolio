@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #252734;
+}
+
+
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.desg{
+  font-family: 'Lumanosimo', cursive;
+}
+.intro{
+  font-family: 'Pacifico', cursive;
+}
+.headlogo{
+  font-family: 'Roboto Mono', monospace;
+}
